@@ -1,5 +1,5 @@
 Instructions for the training process
-1) Unzip dataset.zip in logo-detection/data/
+1) Move dataset.zip to logo-detection/data/ and unzip it there
 2) Run the data_augmentation_final notebook to augment the images present in logo-detection/data/dataset
 3) compress dataset and upload it on your google drive account
 4) Open train.ipynb on google colab and mount your google drive account there, move the compressed dataset.zip file from content/gdrive/My Drive to /content
