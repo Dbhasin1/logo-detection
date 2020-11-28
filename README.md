@@ -8,6 +8,12 @@ Companies and advertisers need to know their customers to assess their business 
 
 In this project, I built a general-purpose logo detection API. To avoid re-training the network for each new company using the service, logo detection and identification are split in two logically and operationally separate parts: first, we find all logos in the image with a YOLO detector (using the Keras implementation of keras-yolo3), and then we check for similarity between the proposed logos and an input uploaded by the customer (for example, the company owning the logo), by computing cosine similarity between features extracted by a pre-trained Inception network
 
+![](2020-11-28%20(4).png)
+
+![](2020-11-28%20(5).png)
+
+![](2020-11-28.png)
+
 ## Instructions for the training process
 1) Move dataset.zip to logo-detection/data/ and unzip it there
 2) Run the data_augmentation_final notebook to augment the images present in logo-detection/data/dataset
